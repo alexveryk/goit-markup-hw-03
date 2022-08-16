@@ -1,0 +1,230 @@
+:root {
+  --accent-color: #2196f3;
+  --main-color-page: #212121;
+  --second-color-page: #757575;
+  --color-text-light-threme: #000000;
+  --color-text-dark-threme: #ffffff;
+  --color-btn-filter-hover: #ffffff;
+  --footer-address-text-color: rgba(255, 255, 255, 0.6);
+
+  --backround-color-light: #ffffff;
+  --backround-color-dark: #2f303a;
+  --background-color-section-team: #f5f4fa;
+  --background-color-btn-filter: #f5f4fa;
+  --button-active: #188ce8;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color-page);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.header,
+.features,
+.works,
+.team-list-item,
+.portfolio {
+  background-color: var(--backround-color-light);
+}
+
+.hero,
+.footer {
+  background-color: var(--backround-color-dark);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+}
+/* HEADER */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  color: var(--color-text-light-threme);
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.menu-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+a.current {
+  color: var(--accent-color);
+}
+
+.contact-link {
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-color-page);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+/* /HEADER */
+
+/* MAIN */
+.hero {
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-dark-threme);
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  color: var(--color-text-dark-threme);
+  background-color: var(--accent-color);
+
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--button-active);
+}
+
+.features-list-title {
+  font-weight: 700;
+  font-size: inherit;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+}
+
+.features-list-text {
+  line-height: 1.71;
+  color: var(--second-color-page);
+}
+
+.team {
+  background-color: var(--background-color-section-team);
+}
+
+.team-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  color: var(--second-color-page);
+}
+/* /MAIN */
+
+/* FOOTER */
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--color-text-dark-threme);
+}
+
+.address {
+  font-family: inherit;
+  font-style: normal;
+  line-height: 1.71;
+
+  color: var(--color-text-dark-threme);
+}
+
+.contats-link {
+  font-family: inherit;
+  font-style: normal;
+  line-height: 1.71;
+
+  color: var(--footer-address-text-color);
+}
+
+.contats-link:hover,
+.contats-link:focus {
+  color: var(--accent-color);
+}
+
+/* /FOOTER */
+
+/* MAIN POTFOLIO */
+.btn {
+  cursor: pointer;
+}
+
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  background-color: var(--background-color-btn-filter);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--color-btn-filter-hover);
+  background-color: var(--accent-color);
+}
+
+.accent-btn {
+  color: var(--color-btn-filter-hover);
+  background-color: var(--accent-color);
+}
+
+.projects-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: var(--second-color-page);
+}
+/* /MAIN POTFOLIO */
