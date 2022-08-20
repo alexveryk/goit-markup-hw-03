@@ -301,9 +301,9 @@ a.current {
     0px 2px 1px rgb(0 0 0 / 20%);
 }
 
-.team-list-img {
+/* .team-list-img {
   margin-bottom: 30px;
-}
+} */
 
 .team-list-title {
   font-weight: 500;
@@ -311,6 +311,7 @@ a.current {
   line-height: 1.19;
   text-align: center;
   margin-bottom: 10px;
+  padding-top: 30px;
 }
 
 .team-list-text {
